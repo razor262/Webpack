@@ -1,0 +1,85 @@
+/* ----------------------- */
+/* font */
+/* ------------------------ */
+@font-face {
+  font-family: "Ubuntu";
+  font-display: swap;
+  src: local("Ubuntu"),
+    url("../fonts/Ubuntu-Regular.ttf") format("ttf"); 
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-display: swap;
+  src: local("Ubuntu"), 
+    url("../fonts/Ubuntu-Bold.ttf") format("ttf"); 
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    padding-top: 15px;
+    font-family: "Ubuntu";
+    font-weight: 700;
+}
+.button_1 {
+    background-color: #fb4e2b; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 8px 15px;
+    font-weight: 700;
+    cursor: pointer;
+} 
+.button_1:hover {
+    background-color: red;
+    color: orange;
+} 
+/*-------------------------------------------*/ 
+.header {
+    border: 1px dashed #ccc;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    text-align: center;
+    color: yellowgreen;
+}
+/* ------------- Header ----------- */ 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  overflow: hidden; 
+}
+.first_section {
+    display: flex; 
+    justify-content: center; 
+    border: 1px dashed #ccc;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.container__img {
+    max-width: 100%;
+    border-radius: 15px;
+} 
+
+/* ------------- section descript ----------- */ 
+.section_descript {  
+    border-radius: 15px;
+    border: 1px dashed #ccc;
+    padding: 15px;
+} 
+
+.section_box {
+    padding: 0 50px;
+} 
